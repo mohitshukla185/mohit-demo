@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mohit-developer portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 92);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(168, 168, 236);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border: 0;
+            background:#4d47b8 ;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection> div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{ 
+            padding: 12px;
+            background: rgb(105, 105, 175);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .leftSection .btn:hover{
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 80%;
+
+        }
+        .purple{
+            color: rgb(109, 34, 179);
+
+        }  
+        .text-grey{
+            color: grey;
+        }
+        #element{
+            color: rgb(109, 34, 179);;
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box {
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 83px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: #0e0e1a;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer>div{
+            width: 220px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Mohit's Portfolio</div>
+            <div class="right">
+            <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="/">About</a></li>
+               <li><a href="/">Services</a></li>
+               <li><a href="/">Projects</a></li>
+               <li><a href="/">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi,My name is <span class="purple">Mohit</span> 
+            <div>and I am  passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+                
+                
+
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="PngItem_1127587.png" alt="">
+            </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+        <span class="text-grey">What I hvae done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    Web Developer-Project (2010-2012)
+                </div>
+                <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="pngegg (1).png" alt="">
+                <div class="vertical-title">
+                    Instagram Developer- project(2010-2012)
+                </div>
+                <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+        </div>
+        </div>
+         <div class="vertical">
+            <img class="image-top" src="pngegg (2).png" alt="">
+            <div class="vertical-title">
+                Facebook Developer-Project (2010-2012)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+            </div>
+    </div>
+  
+  <div class="vertical">
+    <img class="image-top" src="pngegg (3).png" alt="">
+    <div class="vertical-title">
+        Twitter Developer-Project (2010-2012)
+    </div>
+    <div class="vertical-desc">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+    </div>
+    </div>
+    <div class="vertical">
+        <img class="image-top" src="pngegg (4).png" alt="">
+        <div class="vertical-title">
+            Youtube Developer - Project (2010-2012)
+        </div>
+        <div class="vertical-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+        </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="pngegg.png" alt="">
+            <div class="vertical-title">
+                HTML Developer - Project (2010-2012)
+            </div>
+            <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at illo numquam laudantium in, provident, fugiat odit harum unde ab natus deleniti modi.
+       </div>
+            </div>
+       </div>
+
+     </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+            <h3>Mohit's Developer Portfolio</h3>
+        </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.mohitportfolio.com ! All rights reserverd
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'trader','web Designer','Cricketer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
